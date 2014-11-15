@@ -7,5 +7,24 @@
     <string name="apollo_btn">Apollo</string>
     <string name="back_btn">Back</string>
     <string name="romanbtn">Roman</string>
+    <string name="go_back_to_roman">Back</string>
+    <string name="this_is_the_roman_tab_text">This is the Roman Tab</string>
+    <string name="apollo">Apollo</string>
+    <string name="story_for_apollo">This is text teaches the story of Apollo</string>
+    <string name="bacchus">Bacchus</string>
+    <string name="bacchus_story_text">This teaches the history of Bacchus</string>
+    <string name="goBack">Back</string>
+    <string name="apollo_story_text">This teaches the history of Apollo</string>
+    <string name="janus">Janus</string>
+    <string name="janus_story_text">This teaches the history of Janus</string>
+    <string name="back_to_roman">Back</string>
+    <string name="vulcan">Vulcan</string>
+    <string name="vulcan_story_text">This teaches the history of Vulcan</string>
+    <string name="backToRoman">Back</string>
+    <string name="goBackToRoman">Back</string>
+    <string name="cupid_story_text">This teaches the history of Cupid</string>
+    <string name="ceres">Ceres</string>
+    <string name="gobacktoroman">Back</string>
+    <string name="ceres_story_text">This teaches the history of Ceres</string>
 
 </resources>

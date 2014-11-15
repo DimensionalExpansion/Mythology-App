@@ -21,6 +21,30 @@
             android:label="Roman"
             android:theme="@style/AppTheme" />
 
+        <activity android:name=".ApolloActivity"
+            android:label="Apollo"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".BacchusActivity"
+            android:label="Bacchus"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".JanusActivity"
+            android:label="Janus"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".VulcanActivity"
+            android:label="Vulcan"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".CupidActivity"
+            android:label="Cupid"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".CeresActivity"
+            android:label="Ceres"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

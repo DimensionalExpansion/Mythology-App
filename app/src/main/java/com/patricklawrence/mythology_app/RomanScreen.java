@@ -36,4 +36,62 @@ public class RomanScreen extends Activity {
 
 
     }
+
+    public void goApollo(View view) {
+
+        Intent getApolloScreenIntent = new Intent(this, ApolloActivity.class);
+
+                final int result = 1;
+
+        startActivity(getApolloScreenIntent);
+
+        finish();
+
+    }
+
+    public void goBacchus(View view) {
+
+        Intent getBacchusScreenIntent = new Intent(this, BacchusActivity.class);
+
+        final int result = 1;
+
+        startActivity(getBacchusScreenIntent);
+
+        finish();
+    }
+
+    public void goJanus(View view) {
+
+        Intent getJanusScreenIntent = new Intent(this, JanusActivity.class);
+
+        final int result = 1;
+
+        startActivity(getJanusScreenIntent);
+
+        finish();
+    }
+
+    public void goVulcan(View view) {
+
+        Intent getVulcanScreenIntent = new Intent(this, VulcanActivity.class);
+
+        final int result = 1;
+
+        startActivity(getVulcanScreenIntent);
+
+        finish();
+
+    }
+
+    public void goCeres(View view) {
+
+        Intent getCeresScreenIntent = new Intent(this, CeresActivity.class);
+
+        final int result = 1;
+
+        startActivity(getCeresScreenIntent);
+
+        finish();
+
+    }
 }
