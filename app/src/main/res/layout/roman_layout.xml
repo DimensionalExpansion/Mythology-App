@@ -51,5 +51,19 @@
             android:onClick="goCeres"
             android:textSize="18sp" />
 
+        <Button
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mercury"
+            android:onClick="goMercury"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:text="@string/terra"
+            android:onClick="goTerra"
+            android:textSize="18sp" />
+
     </LinearLayout>
 

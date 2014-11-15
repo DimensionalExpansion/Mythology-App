@@ -26,5 +26,11 @@
     <string name="ceres">Ceres</string>
     <string name="gobacktoroman">Back</string>
     <string name="ceres_story_text">This teaches the history of Ceres</string>
+    <string name="mercury">Mercury</string>
+    <string name="mercury_text_story">This teaches the history of Mercury</string>
+    <string name="backtoroman">Back</string>
+    <string name="terra">Terra</string>
+    <string name="terra_story_text">This teaches the history of Terra</string>
+    <string name="backroman">Back</string>
 
 </resources>

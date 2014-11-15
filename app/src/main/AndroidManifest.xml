@@ -45,6 +45,14 @@
             android:label="Ceres"
             android:theme="@style/AppTheme" />
 
+        <activity android:name=".MercuryActivity"
+            android:label="Mercury"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".TerraActivity"
+            android:label="Terra"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

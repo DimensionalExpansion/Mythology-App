@@ -94,4 +94,26 @@ public class RomanScreen extends Activity {
         finish();
 
     }
+
+    public void goMercury(View view) {
+
+        Intent getMercuryScreenIntent = new Intent(this, MercuryActivity.class);
+
+        final int result = 1;
+
+        startActivity(getMercuryScreenIntent);
+
+        finish();
+    }
+
+    public void goTerra(View view) {
+
+        Intent getTerraScreenIntent = new Intent(this, TerraActivity.class);
+
+        final int result = 1;
+
+        startActivity(getTerraScreenIntent);
+
+        finish();
+    }
 }

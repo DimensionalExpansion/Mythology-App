@@ -3,21 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="start"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:gravity="start">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/apollo_story_text"
-        android:layout_gravity="center|top" />
+        android:text="@string/terra_story_text"
+        android:layout_gravity="top|center"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/go_back_to_roman"
-        android:onClick="backToRoman"
-        android:layout_gravity="center_horizontal" />
-
+        android:text="@string/backroman"
+        android:onClick="goBack"
+        android:layout_gravity="top|center"/>
 
 </LinearLayout>

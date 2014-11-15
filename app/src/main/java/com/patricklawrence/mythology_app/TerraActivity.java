@@ -6,22 +6,22 @@ import android.os.Bundle;
 import android.view.View;
 
 /**
- * Created by Patrick on 11/14/2014.
+ * Created by Patrick on 11/15/2014.
  */
-public class ApolloActivity extends Activity{
+public class TerraActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.apollo_layout);
+        setContentView(R.layout.terra_layout);
 
         Intent activityThatCalled = getIntent();
 
 
     }
 
-    public void backToRoman(View view) {
+    public void goBack(View view) {
 
         Intent getRomanScreenIntent = new Intent(this, RomanScreen.class);
 
@@ -29,8 +29,6 @@ public class ApolloActivity extends Activity{
 
         startActivity(getRomanScreenIntent);
 
-    finish();
-
-}
-
+        finish();
+    }
 }
