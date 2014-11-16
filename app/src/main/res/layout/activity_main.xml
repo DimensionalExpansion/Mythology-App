@@ -1,21 +1,55 @@
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
     android:gravity="center|top"
+    android:padding="20dp"
+    android:weightSum="1"
     tools:context=".MainActivity">
 
 
     <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/romanbtn"
         android:layout_gravity="center_horizontal"
         android:onClick="goRomanLayout"
+        android:text="@string/romanbtn"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button"
+        android:onClick="goGreekLayout"
+        android:text="@string/greek"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button2"
+        android:onClick="goEgyptianLayout"
+        android:text="@string/egyptian"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button3"
+        android:onClick="goNorseLayout"
+        android:text="Norse"
         android:textSize="18sp" />
 
 
-</LinearLayout>
+</RelativeLayout>
 

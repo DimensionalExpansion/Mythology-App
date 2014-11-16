@@ -42,9 +42,36 @@ public class MainActivity extends Activity {
 
         Intent getRomanScreenIntent = new Intent(this, RomanScreen.class);
 
-        final int result = 1;
-
         startActivity(getRomanScreenIntent);
 
+        finish();
+
+    }
+
+    public void goGreekLayout(View view) {
+
+        Intent getGreekScreenIntent = new Intent(this, GreekScreen.class);
+
+        startActivity(getGreekScreenIntent);
+
+        finish();
+    }
+
+    public void goEgyptianLayout(View view) {
+
+        Intent getEgyptianScreenIntent = new Intent(this, EgyptianScreen.class);
+
+        startActivity(getEgyptianScreenIntent);
+
+        finish();
+    }
+
+    public void goNorseLayout(View view) {
+
+        Intent getNorseScreenIntent = new Intent(this, NorseScreen.class);
+
+        startActivity(getNorseScreenIntent);
+
+        finish();
     }
 }

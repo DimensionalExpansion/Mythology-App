@@ -61,6 +61,21 @@
             android:label="Jupiter"
             android:theme="@style/AppTheme" />
 
+        <activity
+            android:name=".GreekScreen"
+            android:label="Greek"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".EgyptianScreen"
+            android:label="Egyptian"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".NorseScreen"
+            android:label="Norse"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

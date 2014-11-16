@@ -38,5 +38,10 @@
     <string name="jupiter">Jupiter</string>
     <string name="romanbackto">Back</string>
     <string name="jupiter_story_text">This teaches the history of Jupiter</string>
+    <string name="greek">Greek</string>
+    <string name="backToMain">Back</string>
+    <string name="egyptian">Egyptian</string>
+    <string name="backtomain">Back</string>
+    <string name="gobacktomain">Back</string>
 
 </resources>
