@@ -27,21 +27,15 @@ public class RomanScreen extends Activity {
 
         Intent getMainScreenIntent = new Intent(this, MainActivity.class);
 
-        final int result = 1;
-
         startActivity(getMainScreenIntent);
 
         finish();
-
-
 
     }
 
     public void goApollo(View view) {
 
         Intent getApolloScreenIntent = new Intent(this, ApolloActivity.class);
-
-                final int result = 1;
 
         startActivity(getApolloScreenIntent);
 
@@ -53,8 +47,6 @@ public class RomanScreen extends Activity {
 
         Intent getBacchusScreenIntent = new Intent(this, BacchusActivity.class);
 
-        final int result = 1;
-
         startActivity(getBacchusScreenIntent);
 
         finish();
@@ -64,8 +56,6 @@ public class RomanScreen extends Activity {
 
         Intent getJanusScreenIntent = new Intent(this, JanusActivity.class);
 
-        final int result = 1;
-
         startActivity(getJanusScreenIntent);
 
         finish();
@@ -74,8 +64,6 @@ public class RomanScreen extends Activity {
     public void goVulcan(View view) {
 
         Intent getVulcanScreenIntent = new Intent(this, VulcanActivity.class);
-
-        final int result = 1;
 
         startActivity(getVulcanScreenIntent);
 
@@ -87,8 +75,6 @@ public class RomanScreen extends Activity {
 
         Intent getCeresScreenIntent = new Intent(this, CeresActivity.class);
 
-        final int result = 1;
-
         startActivity(getCeresScreenIntent);
 
         finish();
@@ -99,8 +85,6 @@ public class RomanScreen extends Activity {
 
         Intent getMercuryScreenIntent = new Intent(this, MercuryActivity.class);
 
-        final int result = 1;
-
         startActivity(getMercuryScreenIntent);
 
         finish();
@@ -110,9 +94,25 @@ public class RomanScreen extends Activity {
 
         Intent getTerraScreenIntent = new Intent(this, TerraActivity.class);
 
-        final int result = 1;
-
         startActivity(getTerraScreenIntent);
+
+        finish();
+    }
+
+    public void goDiana(View view) {
+
+        Intent getDianaScreenIntent = new Intent(this, DianaActivity.class);
+
+        startActivity(getDianaScreenIntent);
+
+        finish();
+    }
+
+    public void goJupiter(View view) {
+
+        Intent getJupiterScreenIntent = new Intent(this, JupiterActivity.class);
+
+        startActivity(getJupiterScreenIntent);
 
         finish();
     }

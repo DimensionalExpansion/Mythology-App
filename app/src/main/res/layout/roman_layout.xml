@@ -65,5 +65,19 @@
             android:onClick="goTerra"
             android:textSize="18sp" />
 
+        <Button
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:text="@string/diana"
+            android:onClick="goDiana"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jupiter"
+            android:onClick="goJupiter"
+            android:textSize="18sp" />
+
     </LinearLayout>
 
