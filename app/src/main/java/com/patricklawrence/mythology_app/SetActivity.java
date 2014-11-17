@@ -6,28 +6,27 @@ import android.os.Bundle;
 import android.view.View;
 
 /**
- * Created by Patrick on 11/14/2014.
+ * Created by Patrick on 11/16/2014.
  */
-public class BacchusActivity extends Activity {
+public class SetActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.bacchus_layout);
+        setContentView(R.layout.set_layout);
 
         Intent activityThatCalled = getIntent();
 
     }
 
-    public void backToRoman(View view) {
+    public void goBack(View view) {
 
-        Intent getRomanScreenIntent = new Intent(this, RomanScreen.class);
+        Intent getRaScreenIntent = new Intent(this, EgyptianScreen.class);
 
-        startActivity(getRomanScreenIntent);
+        startActivity(getRaScreenIntent);
 
         finish();
-
-
     }
 }
+

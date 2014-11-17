@@ -14,5 +14,40 @@
         android:text="@string/backtomain"
         android:textSize="12sp" />
 
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goRa"
+        android:text="@string/ra"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goAnubis"
+        android:text="@string/anubis"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goIsis"
+        android:text="@string/isis"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goSet"
+        android:text="@string/set"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goThoth"
+        android:text="@string/thoth"
+        android:textSize="18sp" />
+
 
 </LinearLayout>

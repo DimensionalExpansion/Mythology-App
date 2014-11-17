@@ -76,6 +76,31 @@
             android:label="Norse"
             android:theme="@style/AppTheme" />
 
+        <activity
+            android:name=".RaActivity"
+            android:label="Ra"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".AnubisActivity"
+            android:label="Anubis"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".IsisActivity"
+            android:label="Isis"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".SetActivity"
+            android:label="Set"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ThothActivity"
+            android:label="Thoth"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

@@ -1,83 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:gravity="start"
+    android:orientation="vertical"
     android:padding="20dp"
     android:weightSum="1">
 
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:text="@string/back_btn"
-            android:onClick="goBack"
-            android:textSize="12sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:onClick="goBack"
+        android:text="@string/back_btn"
+        android:textSize="12sp" />
 
-        <Button
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:text="@string/apollo"
-            android:onClick="goApollo"
-            android:textSize="18sp" />
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goApollo"
+        android:text="@string/apollo"
+        android:textSize="18sp" />
 
-        <Button
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:text="@string/bacchus"
-            android:onClick="goBacchus"
-            android:textSize="18sp" />
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goBacchus"
+        android:text="@string/bacchus"
+        android:textSize="18sp" />
 
-        <Button
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:text="@string/janus"
-            android:onClick="goJanus"
-            android:textSize="18sp" />
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goJanus"
+        android:text="@string/janus"
+        android:textSize="18sp" />
 
-        <Button
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:text="@string/vulcan"
-            android:onClick="goVulcan"
-            android:textSize="18sp" />
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goVulcan"
+        android:text="@string/vulcan"
+        android:textSize="18sp" />
 
-        <Button
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:text="@string/ceres"
-            android:onClick="goCeres"
-            android:textSize="18sp" />
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goCeres"
+        android:text="@string/ceres"
+        android:textSize="18sp" />
 
-        <Button
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:text="@string/mercury"
-            android:onClick="goMercury"
-            android:textSize="18sp" />
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goMercury"
+        android:text="@string/mercury"
+        android:textSize="18sp" />
 
-        <Button
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:text="@string/terra"
-            android:onClick="goTerra"
-            android:textSize="18sp" />
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goTerra"
+        android:text="@string/terra"
+        android:textSize="18sp" />
 
-        <Button
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:text="@string/diana"
-            android:onClick="goDiana"
-            android:textSize="18sp" />
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goDiana"
+        android:text="@string/diana"
+        android:textSize="18sp" />
 
-        <Button
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:text="@string/jupiter"
-            android:onClick="goJupiter"
-            android:textSize="18sp" />
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goJupiter"
+        android:text="@string/jupiter"
+        android:textSize="18sp" />
 
-    </LinearLayout>
+</LinearLayout>
 

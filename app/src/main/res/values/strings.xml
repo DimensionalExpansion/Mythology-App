@@ -43,5 +43,21 @@
     <string name="egyptian">Egyptian</string>
     <string name="backtomain">Back</string>
     <string name="gobacktomain">Back</string>
+    <string name="norse">Norse</string>
+    <string name="ra">Ra</string>
+    <string name="backtoegypt">Back</string>
+    <string name="ra_story_text">This teaches the history of Ra</string>
+    <string name="anubis">Anubis</string>
+    <string name="goBackToEgypt">Back</string>
+    <string name="anubis_story_text">This teaches the history of Anubis</string>
+    <string name="isis">Isis</string>
+    <string name="isis_story_text">This teaches the history of Isis</string>
+    <string name="gobacktoegypt">Back</string>
+    <string name="set">Set</string>
+    <string name="set_story_text">This teaches the history of Set</string>
+    <string name="Gobacktoegypt">Back</string>
+    <string name="thoth">Thoth</string>
+    <string name="gobacktoegyptian">Back</string>
+    <string name="thoth_story_text">This teaches the history of Thoth</string>
 
 </resources>
