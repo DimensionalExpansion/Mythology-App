@@ -49,5 +49,33 @@
         android:text="@string/thoth"
         android:textSize="18sp" />
 
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goOsiris"
+        android:text="@string/osiris"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goAnhur"
+        android:text="@string/anhur"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goHorus"
+        android:text="@string/horus"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:onClick="goGeb"
+        android:text="@string/geb"
+        android:textSize="18sp" />
+
 
 </LinearLayout>

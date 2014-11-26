@@ -59,5 +59,17 @@
     <string name="thoth">Thoth</string>
     <string name="gobacktoegyptian">Back</string>
     <string name="thoth_story_text">This teaches the history of Thoth</string>
+    <string name="osiris">Osiris</string>
+    <string name="osiris_story_text">This teaches the history of Osiris</string>
+    <string name="backtoegpytian">Back</string>
+    <string name="anhur">Anhur</string>
+    <string name="egpytiangobackto">Back</string>
+    <string name="anhur_story_text">This teaches the history of Anhur</string>
+    <string name="horus">Horus</string>
+    <string name="backtoegyptian">Back</string>
+    <string name="horus_story_text">This teaches the history of Horus</string>
+    <string name="geb">Geb</string>
+    <string name="egpytgobackto">Back</string>
+    <string name="geb_story_text">This teaches the history of Geb</string>
 
 </resources>

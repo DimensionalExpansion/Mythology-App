@@ -101,6 +101,26 @@
             android:label="Thoth"
             android:theme="@style/AppTheme" />
 
+        <activity
+            android:name=".OsirisActivity"
+            android:label="Osiris"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".AnhurActivity"
+            android:label="Anhur"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".HorusActivity"
+            android:label="Horus"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".GebActivity"
+            android:label="Geb"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

@@ -75,4 +75,42 @@ public class EgyptianScreen extends Activity {
 
         finish();
     }
+
+    public void goOsiris(View view) {
+
+        Intent getOsirisScreenIntent = new Intent(this, OsirisActivity.class);
+
+        startActivity(getOsirisScreenIntent);
+
+        finish();
+    }
+
+    public void goAnhur(View view) {
+
+        Intent getAnhurScreenIntent = new Intent(this, AnhurActivity.class);
+
+        startActivity(getAnhurScreenIntent);
+
+        finish();
+    }
+
+    public void goHorus(View view) {
+
+        Intent getHorusScreenIntent = new Intent(this, HorusActivity.class);
+
+        startActivity(getHorusScreenIntent);
+
+        finish();
+    }
+
+    public void goGeb(View view) {
+
+        Intent getGebScreenIntent = new Intent(this, GebActivity.class);
+
+        startActivity(getGebScreenIntent);
+
+        finish();
+    }
 }
+
+
